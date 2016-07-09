@@ -5,7 +5,7 @@ Stylish style to bring back old menu in ownCloud
 
 ## Requirements
 
-* ownCloud 7 (before, it's... useless)
+* ownCloud 7+ (before, it's... useless)
 * Stylish (for [Firefox](https://addons.mozilla.org/en-US/firefox/addon/stylish/))
 
 ## Behavior
@@ -24,8 +24,9 @@ to the top.
 
 Before :
 
-![new menu](http://sanspseudofix.fr/wp-content/uploads/2014/09/oc_new_menu.png)
+[![new menu](https://i.imgur.com/3qOGHN9m.png)](https://i.imgur.com/3qOGHN9.png)
+
 
 After :
+[![old menu](https://i.imgur.com/9GLgOtrm.png)](https://i.imgur.com/9GLgOtr.png)
 
-![old menu](https://lut.im/AQcZIM8e/UMkf2crE)
