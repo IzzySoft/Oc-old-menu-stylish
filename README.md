@@ -26,7 +26,7 @@ Before :
 
 [![new menu](https://i.imgur.com/3qOGHN9m.png)](https://i.imgur.com/3qOGHN9.png)
 
-
 After :
+
 [![old menu](https://i.imgur.com/9GLgOtrm.png)](https://i.imgur.com/9GLgOtr.png)
 
