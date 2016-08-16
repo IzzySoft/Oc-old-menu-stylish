@@ -58,7 +58,8 @@
 
 /* owncloud-markdown (https://github.com/icewind1991/owncloud-markdown) */
 #md_preview {padding-left: 60px;}
-#editor_container.hasPreview { left:65px; } /* 8.2 */
+#editor_container.hasPreview { left:70px; } /* 8.2 */
+#editor_controls { position:fixed; }
 
 }
 }
