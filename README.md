@@ -17,8 +17,12 @@ to the top.
 
 * create new style with stylish
 * copy / paste code
-* replace [your oc url] by... your oc url :)
 * save
+* if it doesn't work out-of-the-box (rare cases, e.g. if your installation doesn't reside in the server's `DOCUMENT_ROOT` as `/owncloud`):
+  * uncomment the `@-moz-document url-prefix("YOUR OC URL"){` line
+  * replace [your oc url] by... your oc url :)
+  * comment-out the `@-moz-document regexp("https?://[^/]+(:[0-9]+)?/owncloud/.*") {` line
+  * save and check again
 
 ## Screenshots
 
