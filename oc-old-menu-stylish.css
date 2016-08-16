@@ -1,6 +1,7 @@
 @namespace url(http://www.w3.org/1999/xhtml);
 
-@-moz-document url-prefix("YOUR OC URL"){
+/* @-moz-document url-prefix("YOUR OC URL"){ */
+@-moz-document regexp("https?://[^/]+(:[0-9]+)?/owncloud/.*") {
 @media screen and (min-width: 1100px){
 
 #expanddiv {background-color: #1d2d44;}
