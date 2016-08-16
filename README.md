@@ -15,9 +15,11 @@ to the top.
 
 ## How to use
 
-* create new style with stylish
-* copy / paste code
-* save
+* install it [via UserStyles.ORG](https://userstyles.org/styles/131444/oc-old-menu-stylish) or
+* install it manually:
+ * create new style with stylish
+ * copy / paste code
+ * save
 * if it doesn't work out-of-the-box (rare cases, e.g. if your installation doesn't reside in the server's `DOCUMENT_ROOT` as `/owncloud`):
   * uncomment the `@-moz-document url-prefix("YOUR OC URL"){` line
   * replace [your oc url] by... your oc url :)
