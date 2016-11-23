@@ -2,6 +2,7 @@
 * adjustments for owncloud 8.2 - 9.1
 * support for nextcloud
 * optimization for the menu: more space for content by making it "sliding"
+* code formatting
 
 ## Aug 16, 2016
 * Giving the UserStyle a working generic default context, making it possible to install the `.css` without adjustments in most cases
