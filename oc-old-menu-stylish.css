@@ -1,14 +1,15 @@
 @namespace url(http://www.w3.org/1999/xhtml);
 
 /*
-# If you want/need to adjust the URLs to be matched:
+# If you want/need to adjust the URLs to be matched
+# (for nextcloud, also check at the end of the file):
 # Direct match, replace "YOUR OC URL" e.g. by "https://example.com/owncloud/":
 @-moz-document url-prefix("YOUR OC URL"){
 # Multi-Match for "http://any.domain.here/owncloud", "https://any.domain:port/ownloud", etc:
 @-moz-document regexp("https?://[^/]+(:[0-9]+)?/owncloud/.*") {
 # Now we try to match as much as possible: owncloud, nextcloud, and their demos:
 */
-@-moz-document regexp("https?://([^/]+(:[0-9]+)?/(own|next)cloud|demo\.(nextcloud\.com|owncloud\.org))/.*") {
+@-moz-document regexp("https?://(([^/]+(:[0-9]+)?/((own|next)cloud)|demo\.(nextcloud\.com|owncloud\.org))/.*") {
   @media screen and (min-width: 1100px){
 
     #expanddiv {background-color: #1d2d44;}
@@ -76,7 +77,7 @@
 /************************************************************
  * adjustments for nextcloud
  ************************************************************/
-@-moz-document regexp("https?://demo.nextcloud.com/.*") {
+@-moz-document regexp("https?://(([^/]+(:[0-9]+)?/nextcloud)|demo\.nextcloud\.com)/.*") {
   @media screen and (min-width: 1100px){
     #expanddiv, #navigation {background-color: #0082c9;}
     #expand .icon-caret {display:inline-block;}                 /* restore in user-menu */
