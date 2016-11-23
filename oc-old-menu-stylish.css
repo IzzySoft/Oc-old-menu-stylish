@@ -9,7 +9,7 @@
 @-moz-document regexp("https?://[^/]+(:[0-9]+)?/owncloud/.*") {
 # Now we try to match as much as possible: owncloud, nextcloud, and their demos:
 */
-@-moz-document regexp("https?://(([^/]+(:[0-9]+)?/((own|next)cloud)|demo\.(nextcloud\.com|owncloud\.org))/.*") {
+@-moz-document regexp("https?://([^/]+(:[0-9]+)?/(own|next)cloud|demo\.(nextcloud\.com|owncloud\.org))/.*") {
   @media screen and (min-width: 1100px){
 
     #expanddiv {background-color: #1d2d44;}
