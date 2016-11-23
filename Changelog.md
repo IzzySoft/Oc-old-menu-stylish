@@ -1,3 +1,8 @@
+## Nov 23, 2016
+* adjustments for owncloud 8.2 - 9.1
+* support for nextcloud
+* optimization for the menu: more space for content by making it "sliding"
+
 ## Aug 16, 2016
 * Giving the UserStyle a working generic default context, making it possible to install the `.css` without adjustments in most cases
 * fixing position of editor-close-button (which was moved out-of-the-window by the menu bar)

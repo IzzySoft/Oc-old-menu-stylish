@@ -36,3 +36,7 @@ After :
 
 [![old menu](https://i.imgur.com/9GLgOtrm.png)](https://i.imgur.com/9GLgOtr.png)
 
+## Notes:
+This UserStyle was optimized for owncloud 8.2+ and nextcloud 9+. In case you run
+an owncloud version older than 8.2 for some reason, please use the [stylesheet
+version from 8/2016](https://github.com/IzzySoft/Oc-old-menu-stylish/blob/025dd055f3c13b2b6493912986a153c00051bb6d/oc-old-menu-stylish.css).
