@@ -16,6 +16,7 @@
     #controls{width: 94% !important;margin-left: 6% !important;}
     #content {margin-top: 0px;}
     #content-wrapper {padding-left: 6% !important;width: 100% !important;}
+    #gallery-button {position: absolute;right:250px;}
     #navigation{
       background-color: #1d2d44;
       visibility:visible;

@@ -1,3 +1,6 @@
+## ??
+* fixing gallery-button in files (was moved out of the window)
+
 ## Nov 23, 2016
 * adjustments for owncloud 8.2 - 9.1
 * support for nextcloud
